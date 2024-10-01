@@ -1,17 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // other configuration options...
-
+  // Enable modern image formats
   images: {
-    formats: ['image/avif', 'image/webp'], // This enables support for modern image formats.
+    formats: ['image/avif', 'image/webp'], // This enables support for modern image formats
   },
 
   webpack: (config, { isServer }) => {
+    // Ensure Sharp is used for image processing only on the server
     if (isServer) {
-      // Ensure Sharp is used for image processing
-      require('sharp');
+      // Note: `sharp` should be included in your dependencies in package.json
+      const sharp = require('sharp');
     }
 
+    // Return the modified config
     return config;
   },
 };
