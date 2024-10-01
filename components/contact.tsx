@@ -23,7 +23,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 w-full text-center md:text-left flex flex-col md:flex-row justify-between sm:px-12 px-6"
+      className="mb-20 sm:mb-28 w-full text-center md:text-left flex flex-col md:flex-row justify-between sm:px-44 px-6"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
