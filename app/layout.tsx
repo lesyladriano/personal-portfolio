@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lesyl Adriano | Portofolio Website",
+  title: "Lesyl Adriano | Portfolio Website",
   description: "Lesyl is a web designer & developer from Manila, Philippines.",
 };
 
