@@ -45,12 +45,12 @@ export default function Intro() {
         </motion.div>
 
         <motion.h1
-          className="text-5xl sm:pt-7 pt-2 font-semibold text-[#1D1D1F] dark:text-gray-200"
+          className="text-5xl sm:pt-4 pt-2 leading-normal font-semibold text-[#1D1D1F] dark:text-gray-200"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Hello! I'm Lesyl <h2 className="mt-4">Adriano 👋🏻</h2>
+          Hello! I'm Lesyl Adriano 👋🏻
         </motion.h1>
         
       </div>
