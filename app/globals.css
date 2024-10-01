@@ -1,3 +1,7 @@
+/* Import Google Fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
+/* Tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,12 +14,12 @@ html.dark {
   --line-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Custom border class without arbitrary Tailwind property */
 .borderBlack {
-  @apply border border-black/10;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
-
+/* Font styles */
 body {
   font-family: 'Inter', sans-serif; /* Primary font */
 }
@@ -28,5 +32,4 @@ p, span, a {
   font-family: 'Space Mono', monospace; /* Monospace font for specific text */
 }
 
-
-/* You can define additional styles as needed */
+/* Additional styles can be added here */
