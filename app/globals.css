@@ -13,3 +13,20 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif; /* Primary font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif; /* Headings font */
+}
+
+p, span, a {
+  font-family: 'Space Mono', monospace; /* Monospace font for specific text */
+}
+
+
+/* You can define additional styles as needed */
