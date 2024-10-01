@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import sirmataImg from "@/public/sirmata-admin.jpg";
+import sirmataImg from "@/public/sirmata.jpg";
 import plantsImg from "@/public/plant-landing-page.jpg";
 import constructionImg from "@/public/rb-builders.jpg";
 import cleaningImg from "@/public/cleaning-services.png";
