@@ -30,7 +30,7 @@ export default function Contact() {
       viewport={{ once: true }}
     >
       <div className="w-full md:w-1/2 mb-8 md:mb-0 px-4 md:px-6 text-left space-y-8"> {/* Increased space-y value */}
-        <SectionHeading className="text-left">Contact me</SectionHeading>
+        <SectionHeading>Contact me</SectionHeading>
 
         <p className="text-gray-700 dark:text-white/80">
           Got questions or need design advice? Please reach out to me via email for any web design inquiries. I'm always here to help, driven more by the passion for design than anything else. Looking forward to hearing from you!
